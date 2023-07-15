@@ -1,0 +1,13 @@
+
+version: 2
+
+models:
+    - name: covid19_latest_stats
+      description: "A model of latest stats for covid19"
+      columns:
+          - name: code
+            description: "The country code"
+            tests:
+                - unique
+                - not_null
+
