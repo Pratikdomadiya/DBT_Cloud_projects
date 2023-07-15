@@ -9,7 +9,7 @@ Welcome to the DBT_Cloud_projects repository! This repository contains a collect
 4. [Folder Structure](#folder-structure)
 5. [Configuration](#configuration)
 6. [Contributing](#contributing)
-7. [License](#license)
+
 
 ## Project Overview
 DBT_Cloud_projects is a repository aimed at showcasing data modeling projects built using the DBT Cloud tool. DBT (Data Build Tool) is a popular open-source framework that enables data engineers and analysts to transform, organize, and structure their data for analytics and reporting purposes. This repository serves as a reference for best practices and provides examples for building data models using DBT Cloud.
