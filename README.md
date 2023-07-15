@@ -41,4 +41,4 @@ Contributions to the DBT_Cloud_projects repository are welcome! If you have impr
 
 Feel free to modify and use the projects for your own purposes.
 
-Enjoy data modeling with DBT Cloud! If you have any questions or need further assistance, please reach out to the repository owner.
+Enjoy data modeling with DBT Cloud! If you have any questions or need further assistance, please reach out to me.
