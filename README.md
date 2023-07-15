@@ -25,7 +25,7 @@ To get started with the projects in this repository, follow these steps:
 ## Usage
 Each project within this repository has its own folder containing the necessary files and instructions. To use a specific project, navigate to the corresponding folder and follow the provided README instructions. These instructions will guide you through setting up the project, running data models, and performing necessary transformations.
 
-## Folder Structure
+## Folder Structure ( Note: It varies per project folder )
 The repository's folder structure is organized as follows:
 - `models/`: Contains the data models for each project.
 - `macros/`: Includes custom macros used in the data models.
