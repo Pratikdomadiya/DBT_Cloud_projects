@@ -1,3 +1,10 @@
+/*
+TITLE : RFM model with segmentation history
+This example shows how you can build a model with a snapshot of the user attributes at the end of each month. The same could be built for a weekly model with minor adjustments.
+
+*/
+
+
 WITH payments AS(
     SELECT *
     FROM ref {{'fact_payments'}}
