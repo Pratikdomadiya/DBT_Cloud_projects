@@ -11,3 +11,17 @@ models:
                 - unique
                 - not_null
 
+models:
+  - name: stg_stations
+    columns:
+    - name: station_id
+      tests: 
+        # Should not contain null values.
+        - not_null
+        # Should be unique
+        - unique
+    - name: property_type
+      tests:
+        # Should be either 'free_parking' or 'paid_parking'.
+        - accepted_values:
+            values: ['free_parking', 'paid_parking']
