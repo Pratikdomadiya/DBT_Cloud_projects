@@ -1,4 +1,5 @@
 
+
 version: 2
 
 models:
@@ -43,3 +44,11 @@ models:
           - relationships:
               to: ref('customers')
               field: id
+
+models:
+  - name: fact_transactions
+    columns:
+      - name: quantity
+        description: ""
+        tests:
+          - order_limit
