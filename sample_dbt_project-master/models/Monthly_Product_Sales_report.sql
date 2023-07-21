@@ -1,7 +1,12 @@
 /*
-File contetent :
+File content :
 
-- Shows monthly product sales for each locations
+Goal - Shows monthly product sales for each locations
+output : The result of this SQL query displayed in the Monthly Product Sales report would look something like this:
+
+product_name | sales_year | sales_month | monthly_sales
+Widget_4     | 2022       | 03          | 5,600.00
+widget_2     | 2022       | 04          | 10,500.00
 */
 
 SELECT 
