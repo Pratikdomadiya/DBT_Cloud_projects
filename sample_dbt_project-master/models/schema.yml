@@ -11,6 +11,7 @@ models:
                 - unique
                 - not_null
 
+
 models:
   - name: stg_stations
     columns:
@@ -25,3 +26,20 @@ models:
         # Should be either 'free_parking' or 'paid_parking'.
         - accepted_values:
             values: ['free_parking', 'paid_parking']
+
+models:
+  - name: orders
+    columns:
+      - name: order_id
+        tests:
+          - unique
+          - not_null
+      - name: status
+        tests:
+          - accepted_values:
+              values: ['placed', 'shipped', 'completed', 'returned']
+      - name: customer_id
+        tests:
+          - relationships:
+              to: ref('customers')
+              field: id
