@@ -49,6 +49,6 @@ models:
   - name: fact_transactions
     columns:
       - name: quantity
-        description: ""
+        description: "custom test for verifying that none of the orders coming into our fact_transactions table exceed the 500 unit order quantity"
         tests:
           - order_limit
